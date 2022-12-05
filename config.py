@@ -2,7 +2,7 @@ MODEL_PATH = "./models/"
 MODEL_TO_USE = "random_forest_final.pkl"
 DATA_PATH = './data/df_complete.csv'
 HOST = 'http://127.0.0.1:8000'
-HEROKU_HOST = 'scoring-credit-oc-48975'
+HEROKU_HOST = 'https://scoring-credit-oc-48975.herokuapp.com'
 EMPTY_RESPONSE = {
     'error': {'status' : None,
               'client_id_sample' : None,
