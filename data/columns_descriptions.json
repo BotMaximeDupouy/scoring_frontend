@@ -1,0 +1,17 @@
+{
+  "EXT_SOURCE_1": "Normalized score from external data source",
+  "EXT_SOURCE_2": "Normalized score from external data source",
+  "EXT_SOURCE_3": "Normalized score from external data source",
+  "DAYS_BIRTH": "Client's age in days at the time of application",
+  "AMT_CREDIT": "Final credit amount on the previous application. This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT",
+  "AMT_ANNUITY": "Loan annuity",
+  "DAYS_EMPLOYED": "How many days before the application the person started current employment",
+  "AMT_GOODS_PRICE": "Goods price of good that client asked for (if applicable) on the previous application",
+  "DAYS_ID_PUBLISH": "How many days before the application did client change the identity document with which he applied for the loan",
+  "OWN_CAR_AGE": "Age of client's car",
+  "BUREAU_MAX_DAYS_CREDIT": "Maximum of how many days before current application did client apply for Credit Bureau credit",
+  "BUREAU_MAX_DAYS_CREDIT_ENDDATE": "Maxiumum of Remaining duration of CB credit (in days) at the time of application in Home Credit",
+  "BUREAU_MAX_DAYS_ENDDATE_FACT": "Maxium of Days since CB credit ended at the time of application in Home Credit (only for closed credit)",
+  "PREV_SUM_MIN_AMT_PAYMENT": "Minimum of what the client actually paid on previous credit on this installment",
+  "PREV_MEAN_MIN_AMT_PAYMENT": "Mean of What the client actually paid on previous credit on this installment"
+}

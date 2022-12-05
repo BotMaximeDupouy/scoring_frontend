@@ -1,0 +1,11 @@
+{
+  "feature_desc": "This chart visualizes the importance of customer characteristics to the overall model. It is calculate with mean and standard deviation of accumulation of the impurity decrease within each tree.\n See more explanation here : https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html",
+  "box_plot_desc": "This graph allows you to visualize the distribution of the selected features, separated in relation to credit accepted or refused and compared with the customer's data. \n The average is the black line while the customer data in red",
+  "gauge_chart_desc": "Represents the probability that client falls into the underlying classes",
+  "force_plot_desc": "Shows which features had the most influence on the model's prediction for a single observation. \n Features in red increase the probability while blue ones decrease it",
+  "site_desc": "This is a __'credit scoring'__ tool that calculates the probability that a customer will repay his credit (see gauge chart), with a view to __granting or not granting credit__. \n \n In order to make the tool work, please __insert a customer number__ from the (test) database. \n In order to help customer relations, the two characteristics of the customer most influencing the prediction are displayed on the left and can be changed. \n If the customer wishes, it is possible to request to see more characteristics. Visual aids are available to meet the need for transparency and to help understand the results.",
+  "contact" : "*For any questions or remarks, please contact data department: service-data@pretadepenser.com*",
+  "data_desc": "Data is provided by Home Credit and is host on kaggle. \n Company's goal is to broaden financial inclusion for the unbanked population by providing a positive and safe borrowing experience.",
+  "0": "💸💸💸💸<br />💸💸💸💸💸💸💸💸💸💸💸 <br />💸💸💸 CREDIT ACCEPTED 💸💸💸<br />💸💸💸💸💸💸💸💸💸💸💸 <br /> 💸💸💸💸<br />",
+  "1": "😬😬😬😬<br />😬😬😬😬😬😬😬😬😬😬😬 <br />😬😬😬 Credit refused 😬😬😬<br />😬😬😬😬😬😬😬😬😬😬😬 <br /> 😬😬😬😬<br />"
+}
