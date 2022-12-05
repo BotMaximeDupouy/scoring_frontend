@@ -10,7 +10,7 @@ from utils import create_gauge_plot
 
 
 # Change parameter if app is on heroku
-IS_DEPLOY=False
+IS_DEPLOY=True
 if IS_DEPLOY==True:
     HOST=HEROKU_HOST
 
