@@ -132,7 +132,7 @@ else :
         force_plot_graph = requests.get(''.join([HOST, '/']),
                                                  json=graph_params)
         with io.BytesIO(force_plot_graph.content) as f:
-            st.image(f, width=1000)
+            st.image(f, width=800)
 
     ######## FEATURE IMPORTANCE GRAPH
     with st.expander("See models explanation"):
@@ -163,16 +163,16 @@ else :
         col1, col2 = st.columns(2)
         with col1:
             with io.BytesIO(graph_to_display[0]) as f:
-                st.image(f, width=500)
+                st.image(f, width=400)
             if len(graph_to_display) > 2:
                 with io.BytesIO(graph_to_display[2]) as f:
-                    st.image(f, width=500)
+                    st.image(f, width=400)
         with col2:
             with io.BytesIO(graph_to_display[1]) as f:
-                st.image(f, width=500)
+                st.image(f, width=400)
             if len(graph_to_display) == 4 :
                 with io.BytesIO(graph_to_display[3]) as f:
-                    st.image(f, width=500)
+                    st.image(f, width=400)
 
 
 
